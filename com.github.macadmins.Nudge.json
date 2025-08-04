@@ -26,7 +26,7 @@
         "allowedDeferralsUntilForcedSecondaryQuitButton": 14,
         "approachingWindowTime": 72,
         "imminentWindowTime": 24,
-        "randomDelay": false
+        "randomDelay": true
     },
     "userInterface": {
         "simpleMode": false,
