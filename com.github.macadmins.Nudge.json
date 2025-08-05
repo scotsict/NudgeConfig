@@ -25,6 +25,10 @@
         "allowedDeferralsUntilForcedSecondaryQuitButton": 14,
         "approachingWindowTime": 72,
         "imminentWindowTime": 24,
+        "initialRefreshCycle": 300,
+        "approachingRefreshCycle": 300,
+        "imminentRefreshCycle": 300,
+        "elapsedRefreshCycle": 300,
         "randomDelay": true
     },
     "userInterface": {
