@@ -7,7 +7,7 @@
                     "aboutUpdateURL": "https://support.apple.com/en-us/105111"
                 }
             ],
-            "requiredInstallationDate": "2025-08-06T00:00:00Z",
+            "requiredInstallationDate": "2025-08-29T00:00:00Z",
             "requiredMinimumOSVersion": "15.6"
         }
     ],
@@ -43,7 +43,7 @@
                 "mainContentHeader": "Please click on 'Update Device' and follow the on-screen instructions.",
                 "mainContentNote": "Important Notes",
                 "mainContentSubHeader": "Please note that your device will restart during this update.",
-                "mainContentText": "Backup Your Data: Before proceeding with the update, it's essential to back up all your data. \n\nFlexible Scheduling: You have the flexibility to choose when to update your device. \n\nFinal Deadline: Please be aware that your device may be locked if the OS is not updated by the deadline shown in this window.\n\nIf you have any questions or concerns please call us on 9391 7799.\n\nBest regards,\nICT Team",
+                "mainContentText": "Backup Your Data: Before proceeding with the update, it's essential to back up all your data. \n\nFlexible Scheduling: You have the flexibility to choose when to update your device. \n\nFinal Deadline: Please be aware that your device may be locked if the OS is not updated by Friday, 29th August 2025.\n\nIf you have any questions or concerns please call us on 9391 7799.\n\nBest regards,\nICT Team",
                 "mainHeader": "Your device requires an OS update",
                 "primaryQuitButtonText": "Later",
                 "secondaryQuitButtonText": "I understand",
