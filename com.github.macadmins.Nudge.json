@@ -8,7 +8,7 @@
                 }
             ],
             "requiredInstallationDate": "2025-09-10T00:00:00Z",
-            "requiredMinimumOSVersion": "15.6"
+            "requiredMinimumOSVersion": "15.5"
         }
     ],
     "optionalFeatures": {
