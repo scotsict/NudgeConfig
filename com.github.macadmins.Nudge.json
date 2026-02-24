@@ -2,13 +2,8 @@
     "osVersionRequirements": [
         {
             "aboutUpdateURL": "https://support.apple.com/en-us/105111",
-            "requiredMinimumOSVersion": "latest-supported",
-            "standardMinorUpdateSLA": 14,
-            "nonActivelyExploitedCVEsMinorUpdateSLA": 14,
-            "activelyExploitedCVEsMinorUpdateSLA": 27,
-            "standardMajorUpgradeSLA": 14,
-            "activelyExploitedCVEsMajorUpgradeSLA": 14,
-            "nonActivelyExploitedCVEsMajorUpgradeSLA": 14
+            "requiredMinimumOSVersion": "26.3",
+            "requiredInstallationDate": "2026-03-11T00:00:00"
         }
     ],
     "optionalFeatures": {
