@@ -1,52 +1,62 @@
 {
     "osVersionRequirements": [
         {
-            "aboutUpdateURLs": [
-                {
-                    "_language": "en",
-                    "aboutUpdateURL": "https://support.apple.com/en-us/105111"
-                }
-            ],
-            "requiredMinimumOSVersion": "latest-supported"
+            "aboutUpdateURL": "https://support.apple.com/en-us/105111",
+            "requiredMinimumOSVersion": "latest-supported",
+            "standardMinorUpdateSLA": 14,
+            "nonActivelyExploitedCVEsMinorUpdateSLA": 14,
+            "activelyExploitedCVEsMinorUpdateSLA": 27,
+            "standardMajorUpgradeSLA": 14,
+            "activelyExploitedCVEsMajorUpgradeSLA": 14,
+            "nonActivelyExploitedCVEsMajorUpgradeSLA": 14
         }
     ],
     "optionalFeatures": {
-        "aggressiveUserFullScreenExperience": false,
+        "aggressiveUserFullScreenExperience": true,
         "asynchronousSoftwareUpdate": true,
         "attemptToFetchMajorUpgrade": true,
-        "enforceMinorUpdates": true
+        "acceptableCameraUsage": true,
+        "acceptableScreenSharingUsage": true
+        
     },
     "userExperience": {
         "allowGracePeriods": false,
         "allowLaterDeferralButton": true,
         "allowUserQuitDeferrals": true,
-        "allowedDeferrals": 5,
-        "allowedDeferralsUntilForcedSecondaryQuitButton": 5,
-        "approachingWindowTime": 72,
-        "imminentWindowTime": 24,
-        "initialRefreshCycle": 300,
-        "approachingRefreshCycle": 300,
+        "allowedDeferrals": 1000,
+        "allowedDeferralsUntilForcedSecondaryQuitButton": 1000,
+        "approachingWindowTime": 240,
+        "imminentWindowTime": 96,
+        "initialRefreshCycle": 7200,
+        "approachingRefreshCycle": 1500,
         "imminentRefreshCycle": 300,
         "elapsedRefreshCycle": 300,
-        "randomDelay": false
+        "randomDelay": false,
+        "singleQuitButton": true,
+        "calendarDeferralUnit": "approachingWindowTime",
+        "allowCustomDeferral": false
     },
     "userInterface": {
+        "showRequiredDate": true,
         "simpleMode": false,
         "iconDarkPath": "/Library/Application Support/JAMF/bin/scots_logo.png",
         "iconLightPath": "/Library/Application Support/JAMF/bin/scots_logo.png",
+        "showActivelyExploitedCVEs": false,
+        "showDeferralCount": false,
         "updateElements": [
             {
                 "_language": "en",
                 "actionButtonText": "Update Device",
-                "informationButtonText": "The Scots College ICT ver 2.3.0",
-                "mainContentHeader": "Please click on 'Update Device' and follow the on-screen instructions.",
+                "informationButtonText": "The Scots College ICT",
+                "mainContentHeader": "**Your device will restart during this update**",
+                "mainContentSubHeader": "Updates can take around 30 to 60 minutes to complete",
                 "mainContentNote": "Important Notes",
-                "mainContentSubHeader": "Please note that your device will restart during this update.",
-                "mainContentText": "Backup Your Data: Before proceeding with the update, it's essential to back up all your data. \n\nFlexible Scheduling: You have the flexibility to choose when to update your device. \n\nIf you have any questions or concerns, please call us on 9391 7799 or visit the ICT Service Desk at M215 from 8am-4pm on Monday to Friday.\n\nBest regards,\nICT Team",
+                "mainContentText": "A fully up-to-date device is required to ensure your data remains safe and secure.\n\nPlease ensure your device has a stable internet connection and is plugged into a power cable before proceeding.\n\n**This message will become more frequent until the update has been completed.**\n\nIf you have any questions or concerns, please call us on 9391 7799 or visit the ICT Service Desk at M215 between 8am-4pm from Monday to Friday.\n\nWe thank you for your cooperation in keeping college devices secure.\n\nBest regards,\nICT Team",
                 "mainHeader": "Your device requires an OS update",
-                "primaryQuitButtonText": "Later",
+                "primaryQuitButtonText": "Remind me later",
                 "secondaryQuitButtonText": "I understand",
                 "subHeader": "This is a message from Scots ICT."
+                
             }
         ]
     }
