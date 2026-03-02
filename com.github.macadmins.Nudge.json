@@ -11,8 +11,8 @@
         "asynchronousSoftwareUpdate": true,
         "attemptToFetchMajorUpgrade": true,
         "acceptableCameraUsage": true,
-        "acceptableScreenSharingUsage": true
-        
+        "acceptableScreenSharingUsage": true,
+        "attemptToBlockApplicationLaunches": true
     },
     "userExperience": {
         "allowGracePeriods": false,
