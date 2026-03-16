@@ -2,7 +2,7 @@
     "osVersionRequirements": [
         {
             "aboutUpdateURL": "https://support.apple.com/en-us/105111",
-            "requiredMinimumOSVersion": "26.3",
+            "requiredMinimumOSVersion": "26.3.1",
             "requiredInstallationDate": "2026-03-31T00:00:00"
         }
     ],
