@@ -37,6 +37,7 @@
         "iconLightPath": "/Library/Application Support/JAMF/bin/scots_logo.png",
         "showActivelyExploitedCVEs": false,
         "showDeferralCount": false,
+        "requiredInstallationDisplayFormat": "dd/MM/yyyy",
         "updateElements": [
             {
                 "_language": "en",
